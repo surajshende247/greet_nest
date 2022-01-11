@@ -6,6 +6,4 @@ module GreetNest
     def self.greet(name)
       "Hey #{name}!! I am in GreetNest module #{GreetNest::VERSION}. And the current time is #{Time.now}."
     end
-    
-  end
 end
